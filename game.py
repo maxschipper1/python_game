@@ -20,6 +20,8 @@ def player_left():
     new_pos = player.xcor() - 10
     player.setx(new_pos)
 
+print("he")
+
 while True:
     wn.update()
     wn.listen()
