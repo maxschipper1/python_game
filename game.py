@@ -20,8 +20,11 @@ def player_left():
     new_pos = player.xcor() - 10
     player.setx(new_pos)
 
+print("hie")
+
 while True:
     wn.update()
     wn.listen()
     wn.onkeypress(player_right, "Right")
     wn.onkeypress(player_left, "Left")
+    
