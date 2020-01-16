@@ -1,9 +1,4 @@
-import turtle
+import pygame
 
-def create():
-    neger = turtle.Turtle()
-    neger.shape("square")
-    return neger
-
-create().forward(100)
+print("test")
 

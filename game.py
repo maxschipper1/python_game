@@ -32,8 +32,8 @@ def create_bullet ():
 
 def bullet_pos():
     print(player.xcor())
-    create_bullet().setx(player.xcor())
-    create_bullet().sety(100)
+    create_bullet().setpos(player.xcor(), 0)
+    
     
     
 
